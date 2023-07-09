@@ -1,0 +1,14 @@
+{
+  "name": "WeReadPlus",
+  "description": "我的微信读书扩展工具",
+  "version": "1.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["storage", "activeTab", "scripting"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "options_page": "options.html"
+}
